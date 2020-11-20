@@ -1,0 +1,15 @@
+import java.util.*
+public class helloWorld
+{
+  public static void main(String args[])
+  {
+      String str1="Welcome to the java World";
+      Scanner sc=new Scanner(str1).useDelimiter(" ");
+      while(sc.hasNext())
+      {
+        String val=sc.next();
+        out.println(val); 
+       }
+   }
+ }  
+  
